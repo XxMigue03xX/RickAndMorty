@@ -1,0 +1,37 @@
+header {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}  
+header img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+@media (max-width: 450px) {
+    header {
+      height: 25%;
+    }
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h3  {
+    font-family: "Rick-font";
+    -webkit-text-fill-color: #67d9eb;
+    -webkit-text-stroke: 0.001px;
+    -webkit-text-stroke-color: greenyellow;
+    font-size: 35px;
+}

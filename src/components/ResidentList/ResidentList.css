@@ -1,0 +1,61 @@
+.residents {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 85%;
+    padding: 0;
+}
+.no_residents {
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    font-family: "Rick-Font";
+    font-size: 40px;
+    color: #062226;
+    text-align: center;
+}
+.page_buttons {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    padding-right: 10px;
+}
+.page_buttons button {
+    background: #062226;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+.select_pagination {
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+.residents_container {
+    padding: 15px;
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 500px) {
+    .residents {
+      top: 67%;
+    }
+    .no_residents {
+      top: 30%;
+      font-size: 24px;
+    }
+    .select_pagination {
+        left: 2.5%;
+    }
+    .page_buttons {
+        left: 15%;
+    }
+    .residents_container {
+      top: 15%;
+    }
+}

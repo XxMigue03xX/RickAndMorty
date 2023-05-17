@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #67d9eb;
+}
+@font-face {
+  font-family: "Rick-Font";
+  src: url("./assets/fonts/get_schwifty.ttf") format("truetype");
+}
