@@ -6,7 +6,7 @@ import Loader from './components/Loader/Loader.jsx'
 import ResidentList from './components/ResidentList/ResidentList.jsx'
 import SearchForm from './components/searchForm/searchForm'
 import axios from 'axios'
-import image1 from "./../public/images/bannerRick&Morty.png"
+import image1 from "./assets/images/bannerRick&Morty.png"
 import './App.css'
 
 // El valor de un input en react no puede ser null ni undefined
