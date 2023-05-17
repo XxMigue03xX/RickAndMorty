@@ -4,7 +4,7 @@ import { getRandomNumber } from './utils/getRandomNumber.js'
 import Location from './components/Location/Location.jsx'
 import Loader from './components/Loader/Loader.jsx'
 import ResidentList from './components/ResidentList/ResidentList.jsx'
-import SearchForm from './components/searchForm/searchForm'
+import SearchForm from './components/SearchForm/SearchForm.jsx'
 import axios from 'axios'
 import image1 from "./assets/images/bannerRick&Morty.png"
 import './App.css'
